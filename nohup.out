@@ -1,0 +1,268 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:80
+  Network URL: http://172.31.38.85:80
+  External URL: http://15.206.125.14:80
+
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:28:36.331 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:80
+  Network URL: http://172.31.38.85:80
+  External URL: http://15.206.125.14:80
+
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:28:57.344 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+Traceback (most recent call last):
+  File "/home/ubuntu/InNews/venv/bin/streamlit", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/streamlit/web/cli.py", line 240, in main_run
+    _main_run(target, args, flag_options=kwargs)
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/streamlit/web/cli.py", line 276, in _main_run
+    bootstrap.run(file, is_hello, args, flag_options)
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/streamlit/web/bootstrap.py", line 329, in run
+    asyncio.run(run_server())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/streamlit/web/bootstrap.py", line 317, in run_server
+    await server.start()
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/streamlit/web/server/server.py", line 275, in start
+    start_listening(app)
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/streamlit/web/server/server.py", line 132, in start_listening
+    start_listening_tcp_socket(http_server)
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/streamlit/web/server/server.py", line 199, in start_listening_tcp_socket
+    http_server.listen(port, address)
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+              ^^^^^^^^^^^^^
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+PermissionError: [Errno 13] Permission denied
+Usage: streamlit run [OPTIONS] TARGET [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: Invalid value: File does not exist: filename.py
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.38.85:8501
+  External URL: http://15.206.125.14:8501
+
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:32:17.127 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.38.85:8501
+  External URL: http://15.206.125.14:8501
+
+  Stopping...
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+  Stopping...
+Exception ignored in: <module 'threading' from '/usr/lib/python3.12/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1622, in _shutdown
+    lock.acquire()
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/streamlit/web/bootstrap.py", line 44, in signal_handler
+    server.stop()
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/streamlit/web/server/server.py", line 417, in stop
+    self._runtime.stop()
+  File "/home/ubuntu/InNews/venv/lib/python3.12/site-packages/streamlit/runtime/runtime.py", line 324, in stop
+    async_objs.eventloop.call_soon_threadsafe(stop_on_eventloop)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 840, in call_soon_threadsafe
+    self._check_closed()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 541, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.38.85:8501
+  External URL: http://15.206.125.14:8501
+
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:36:28.558 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:36:33.159 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:36:34.859 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:36:35.653 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:36:38.491 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:36:41.586 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 05:36:43.430 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 05:36:44.186 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 05:36:44.821 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:36:45.508 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 05:36:47.018 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 05:36:47.778 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 05:36:48.534 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 05:36:49.291 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 05:36:50.128 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 05:36:50.965 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 05:36:51.712 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:47:02.794 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:47:06.024 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:47:08.319 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:47:18.981 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:47:29.187 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:47:47.753 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:47:50.128 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:58:34.480 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:58:36.709 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:58:44.671 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:59:05.631 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:59:07.901 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 05:59:16.613 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:01:08.069 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:01:10.526 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:01:21.610 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:04:09.709 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:04:26.536 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:05:00.355 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:05:45.095 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:05:47.309 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:05:58.529 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:06:50.148 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:06:51.428 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:06:53.089 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:06:55.227 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:07:52.304 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:08:30.625 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:08:33.961 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:08:36.027 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 06:08:37.465 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 06:08:38.217 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 06:08:39.045 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 06:08:39.875 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 06:08:40.691 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 06:08:41.444 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 06:08:42.271 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2024-11-14 06:08:43.025 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2024-11-14 06:10:13.388 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
