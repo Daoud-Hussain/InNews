@@ -1,0 +1,14 @@
+# Ignore virtual environments
+venv/
+
+# Ignore log files
+nohup.out
+
+# Ignore any system files (e.g., .DS_Store for macOS, Thumbs.db for Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore other potentially sensitive or large files
+Meta/
+*.log
+
